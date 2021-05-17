@@ -1,0 +1,22 @@
+
+/* Tyylin määrittävät adjektiivit; kansainvälinen, avartava, sivistävä, toiminnallinen, virkistävä */
+/* Värien koodit #37FB72, #29BCE0, #EBE9E9, #6E7187 */
+/* Fonttityylit Poppins & PT Serif  */
+
+body {background-color:#EBE9E9; }
+
+col { background-color:#6E7187;}	
+
+header {
+	font-family: 'Poppins', sans-serif; border-style: solid; border-width: 1px 1px 1px 1px; 	border-color: black; border-radius: 10px; background-color:#6E7187; color:white; 			 padding-left: 15px;}
+
+body {font-family: 'PT Serif', serif;}
+
+h1, h2, h3, h4 {font-family: 'Poppins', sans-serif; }
+
+section, article {
+	border-style: solid; border-width: 1px 1px 1px 1px; border-color: black; border-radius: 10px; padding-left: 15px; padding-right: 15px;
+}
+
+footer {
+	border-style: solid; border-width: 1px 1px 1px 1px; border-color: black; border-radius: 10px; background-color:#6E7187; color:white;  padding-left: 15px;}

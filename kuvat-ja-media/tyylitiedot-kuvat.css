@@ -1,0 +1,51 @@
+
+
+body {
+
+display: flex;
+flex-wrap: wrap;
+
+}
+
+header { width: 100%; }
+main { width: 75%;}
+aside { width: 25%; background-color: #29BCE0; border-style: solid;
+ border-width: 1px 1px 1px 1px; border-color: black; border-radius: 10px; padding-left: 15px  }
+ 
+footer { width: 100%; }
+
+li {
+	position: relative;
+	
+	}
+
+figure {
+	position: relative;
+	margin: 1em 20px;
+	width: fit-content;
+	}
+
+figcaption {
+	position:absolute;
+	top:0;
+	background: rgba(0,0,0,0.65);
+	width: 100%;
+		
+}
+
+h3 {color: #fff;  margin: 5px 10px ; margin: opx;  }
+
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+	list-style-type: none;
+}
+
+@media only screen and (max-width: 670px) {
+	main, aside, footer { width: 100%; }
+	
+}
+
+
