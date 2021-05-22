@@ -3,20 +3,40 @@
 /* Värien koodit #37FB72, #29BCE0, #EBE9E9, #6E7187 */
 /* Fonttityylit Poppins & PT Serif  */
 
-body {background-color:#EBE9E9; }
+body {background-color:#EBE9E9; font-family: 'PT Serif', serif; font-size: 18px; display: flex;
+flex-wrap: wrap;}
 
-col { background-color:#6E7187;}	
+nav { width: 100%; }
 
 header {
-	font-family: 'Poppins', sans-serif; border-style: solid; border-width: 1px 1px 1px 1px; 	border-color: black; border-radius: 10px; background-color:#6E7187; color:white; 			 padding-left: 15px;}
+	width: 100%; font-family: 'Poppins', sans-serif; border-style: solid; border-width: 1px 1px 1px 1px; border-color: black; border-radius: 10px; background-color:#6E7187; color:white; 			 padding-left: 15px;}
 
-body {font-family: 'PT Serif', serif;}
 
 h1, h2, h3, h4 {font-family: 'Poppins', sans-serif; }
 
-section, article {
+section, article, aside {
 	border-style: solid; border-width: 1px 1px 1px 1px; border-color: black; border-radius: 10px; padding-left: 15px; padding-right: 15px;
 }
 
+form {
+	max-width: 700px;
+}
+
+main { width: 80%;}
+aside { width: 20%; background-color: #29BCE0; color: white; }
+
 footer {
-	border-style: solid; border-width: 1px 1px 1px 1px; border-color: black; border-radius: 10px; background-color:#6E7187; color:white;  padding-left: 15px;}
+	width: 100%; border-style: solid; border-width: 1px 1px 1px 1px; border-color: black; border-radius: 10px; background-color:#6E7187; color:white;  padding-left: 15px;}
+
+#page-container {
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+
+@media only screen and (max-width: 600px) {
+	main, aside { width: 100%; }
+	
+	
+}
